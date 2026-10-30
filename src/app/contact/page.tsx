@@ -1,0 +1,15 @@
+import { ArrowUpRight, Clock3, Mail, MapPin, Phone, ShieldAlert } from "lucide-react";
+import { ContactBanner, Eyebrow, PageHero } from "@/components/ui";
+import { metadataFor } from "@/lib/seo";
+import { site } from "@/lib/site";
+
+export const metadata = metadataFor("Contact & Location", "Find publicly listed contact information and approximate location for Dr. Manjula Hospital near B.R.B. College, Samastipur.", "/contact");
+
+export default function ContactPage() {
+  return <>
+    <PageHero eyebrow="LET'S CONNECT" title="We're here to help you" highlight="find your way." description="Find contact details, a location reference and useful information before you plan a visit. Exact hours and directions are being verified with the hospital."/>
+    <section className="section"><div className="container contact-layout"><div><Eyebrow>CONTACT DETAILS</Eyebrow><h2>Find us in Samastipur.</h2><p className="contact-intro">All contacts shown here are from public directory listings and must be approved by the hospital before publication.</p><div className="contact-detail-list"><div><span className="contact-icon"><Phone size={21}/></span><div><small>PUBLICLY LISTED PHONE</small><a href={site.phoneHref}>{site.phoneLabel}</a><p>Call to verify doctor availability and hospital hours.</p></div></div><div><span className="contact-icon"><MapPin size={21}/></span><div><small>PUBLICLY LISTED LOCATION</small><strong>{site.address}</strong></div></div><div><span className="contact-icon"><Clock3 size={21}/></span><div><small>VISITING & CONSULTATION HOURS</small><strong>To be confirmed</strong><p>Public online listings differ. Please phone before travelling.</p></div></div><div><span className="contact-icon"><Mail size={21}/></span><div><small>EMAIL</small><strong>Official patient-facing email pending confirmation</strong></div></div></div><a className="button button-primary" href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Find the area on Maps <ArrowUpRight size={18}/></a></div><div className="contact-map-card"><div className="map-grid" aria-hidden="true"/><div className="contact-map-pin"><MapPin size={40} fill="currentColor"/></div><div className="contact-map-label"><span>NEAR B.R.B. COLLEGE</span><strong>Samastipur, Bihar</strong><small>Location graphic — not an exact map pin</small></div><a href={site.mapsUrl} target="_blank" rel="noopener noreferrer">Open Google Maps <ArrowUpRight size={17}/></a></div></div></section>
+    <section className="section subtle-section"><div className="container important-note"><ShieldAlert size={29}/><div><h3>For urgent medical concerns</h3><p>This preview does not claim a 24-hour emergency department or publish an emergency helpline. In an emergency, use local emergency services or the nearest verified emergency facility. In India, 112 is the national emergency response number.</p></div></div></section>
+    <ContactBanner title="Let's make your next visit easier." text="Get in touch to verify hospital timings, clinicians and consultation availability before planning your visit."/>
+  </>;
+}

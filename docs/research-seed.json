@@ -1,0 +1,298 @@
+{
+  "project": "Dr Manjula Hospital Samastipur — Phase 1 Website",
+  "researchDate": "2026-10-30",
+  "usage": "Research seed only. Not owner-approved for publication.",
+  "statusEnum": [
+    "corroborated_public_listing",
+    "directory_reported",
+    "conflicting",
+    "unverified",
+    "excluded",
+    "owner_verified"
+  ],
+  "hospital": {
+    "internalWorkingName": "Dr. Manjula Hospital (Matrika Manjula Nursing Home), Samastipur",
+    "brandName": {
+      "value": null,
+      "status": "unverified",
+      "needsOwnerApproval": true
+    },
+    "aliases": [
+      {
+        "value": "Dr. Manjula Hospital",
+        "status": "directory_reported",
+        "sources": [
+          "S01",
+          "S02",
+          "S03",
+          "S04"
+        ]
+      },
+      {
+        "value": "“Matrika” Manjula Nursing Home",
+        "status": "directory_reported",
+        "sources": [
+          "S05",
+          "S07"
+        ]
+      },
+      {
+        "value": "Matrika Manjula Hospital",
+        "status": "directory_reported",
+        "sources": [
+          "S09"
+        ]
+      }
+    ],
+    "address": {
+      "value": "Near B.R.B. College, Azad Nagar / Mohanpur Road, Samastipur, Bihar 848101",
+      "status": "corroborated_public_listing",
+      "needsOwnerApproval": true,
+      "sources": [
+        "S01",
+        "S02",
+        "S06",
+        "S09"
+      ]
+    },
+    "phone": {
+      "value": "+91 99347 43577",
+      "status": "corroborated_public_listing",
+      "needsOwnerApproval": true,
+      "sources": [
+        "S01",
+        "S02",
+        "S05",
+        "S07"
+      ]
+    },
+    "email": {
+      "value": "drmanjula2218@gmail.com",
+      "status": "directory_reported",
+      "isCorporateDirectoryEmail": true,
+      "needsOwnerApproval": true,
+      "sources": [
+        "S11",
+        "S12"
+      ]
+    },
+    "website": {
+      "value": null,
+      "status": "unverified"
+    },
+    "hours": {
+      "value": null,
+      "status": "conflicting",
+      "note": "24h listings conflict with Practo and Justdial OPD hours",
+      "sources": [
+        "S01",
+        "S06",
+        "S09"
+      ]
+    },
+    "mapPlaceUrl": {
+      "value": null,
+      "status": "unverified"
+    },
+    "foundingYear": {
+      "value": null,
+      "status": "conflicting",
+      "note": "2023 legal incorporation does not establish opening year; Justdial claims 32 years."
+    },
+    "tagline": {
+      "value": null,
+      "status": "unverified"
+    },
+    "logo": {
+      "path": null,
+      "status": "unverified"
+    },
+    "photos": []
+  },
+  "company": {
+    "name": "Matrika Manjula Nursing Home Private Limited",
+    "cin": "U86100BR2023PTC062801",
+    "incorporationDate": "2023-04-26",
+    "directors": [
+      "Manjula",
+      "Uday Shankar Prasad"
+    ],
+    "relationshipToHospitalConfirmed": false,
+    "status": "directory_reported",
+    "sources": [
+      "S10",
+      "S11",
+      "S12"
+    ]
+  },
+  "doctors": [
+    {
+      "id": "manjula",
+      "name": "Dr. Manjula",
+      "role": "Obstetrician & Gynaecologist",
+      "qualifications": null,
+      "currentAffiliationVerified": false,
+      "portrait": null,
+      "opdHours": null,
+      "status": "directory_reported",
+      "sources": [
+        "S14"
+      ]
+    },
+    {
+      "id": "minal",
+      "name": "Dr. Minal",
+      "role": "Gynaecologist / Obstetrician; Infertility Specialist listed on some profile views",
+      "qualifications": [
+        "MBBS",
+        "MS Obstetrics & Gynaecology",
+        "DNB Obstetrics & Gynaecology"
+      ],
+      "reportedClinicHours": "Monday–Sunday 10:00–14:00, 15:30–19:30",
+      "reportedFeeINR": 750,
+      "currentAffiliationVerified": false,
+      "portrait": null,
+      "status": "directory_reported",
+      "sources": [
+        "S09",
+        "S15"
+      ]
+    },
+    {
+      "id": "s-nandi",
+      "name": "Dr. S. Nandi",
+      "role": "General Physician",
+      "qualifications": null,
+      "currentAffiliationVerified": false,
+      "portrait": null,
+      "status": "directory_reported",
+      "sources": [
+        "S03",
+        "S04",
+        "S16"
+      ]
+    }
+  ],
+  "proposedSpecialties": [
+    {
+      "id": "gynaecology",
+      "name": "Gynaecology & Women’s Health",
+      "status": "corroborated_public_listing",
+      "publishApproved": false,
+      "sources": [
+        "S06",
+        "S09",
+        "S14"
+      ]
+    },
+    {
+      "id": "obstetrics",
+      "name": "Obstetrics & Pregnancy Care",
+      "status": "directory_reported",
+      "publishApproved": false,
+      "sources": [
+        "S06",
+        "S09"
+      ]
+    },
+    {
+      "id": "antenatal",
+      "name": "Antenatal Consultations",
+      "status": "directory_reported",
+      "publishApproved": false,
+      "sources": [
+        "S07",
+        "S15"
+      ]
+    },
+    {
+      "id": "fertility",
+      "name": "Fertility / Infertility Consultations",
+      "status": "directory_reported",
+      "publishApproved": false,
+      "sources": [
+        "S06",
+        "S15"
+      ]
+    },
+    {
+      "id": "generalmedicine",
+      "name": "General Medicine",
+      "status": "directory_reported",
+      "publishApproved": false,
+      "sources": [
+        "S04",
+        "S07"
+      ]
+    }
+  ],
+  "excludedUnverifiedClaims": [
+    "24/7 emergency services",
+    "ICU",
+    "NICU",
+    "ambulance service",
+    "laparoscopic surgery",
+    "IVF laboratory",
+    "high-risk pregnancy treatment",
+    "in-house laboratory",
+    "ultrasound service",
+    "NABH accreditation",
+    "Ayushman Bharat empanelment",
+    "number of beds",
+    "success rates",
+    "founding year"
+  ],
+  "excludedWebsite": {
+    "url": "https://drmanjulahospital.com/",
+    "reason": "Contact section indicates Hanamkonda, Telangana, not Samastipur",
+    "status": "excluded",
+    "sources": [
+      "S18"
+    ]
+  },
+  "phase1Pages": [
+    "/",
+    "/about",
+    "/doctors",
+    "/specialities",
+    "/facilities",
+    "/gallery",
+    "/contact"
+  ],
+  "phase1Functionality": [
+    "Static pages",
+    "Click-to-call once approved",
+    "Maps link once approved",
+    "No DB, no admin, no booking forms"
+  ],
+  "ownerQuestions": [
+    "Confirm official brand and legal relationship",
+    "Verify official address and Maps pin",
+    "Verify phone and public email",
+    "Verify operational/OPD/emergency hours",
+    "Approve doctor roster, credentials, photos and schedules",
+    "Approve specialty and services catalog",
+    "Document facility and infrastructure claims",
+    "Provide brand assets and photo usage rights",
+    "Confirm actual founding year/history",
+    "Provide business registration/accreditation claims if desired"
+  ],
+  "sources": {
+    "S01": "https://www.bharatibiz.com/dr-manjula-hospital-099347-43577",
+    "S02": "https://www.cybo.com/IN-biz/dr-manjula-hospital",
+    "S03": "https://www.justdial.com/Samastipur/Dr-Manjula-Hospital-Adarsh-Nagar/9999P6274-6274-171013220733-Q8F7_BZDET",
+    "S04": "https://www.lybrate.com/samastipur/clinic/dr-manjula-hospital",
+    "S05": "https://yappe.in/bihar/samastipur/dr-manjula-hospital/546955",
+    "S06": "https://www.justdial.com/Samastipur/Matrika-Manjula-Nursing-Home-Pvt-Ltd-Near-B-R-B-College-Azad-Nagar/9999P6274-6274-150728150300-I2B5_BZDET",
+    "S07": "https://www.ibihar.in/business/matrika-manjula-nursing-home/",
+    "S09": "https://www.practo.com/Samastipur/clinic/matrika-manjula-hospital-mohanpur",
+    "S10": "https://www.zaubacorp.com/MATRIKA-MANJULA-NURSING-HOME-PRIVATE-LIMITED-U86100BR2023PTC062801",
+    "S11": "https://www.companydetails.in/company/matrika-manjula-nursing-home-private-limited",
+    "S12": "https://www.instafinancials.com/company/matrika-manjula-nursing-home-private-limited-U86100BR2023PTC062801",
+    "S14": "https://www.medindia.net/directories/doctors/dr-manjula-obstetrics-and-gynaecologist-samastipur-bihar-19163.htm",
+    "S15": "https://www.practo.com/samastipur/doctor/minal-3-gynecologist-obstetrician?practice_id=2209027",
+    "S16": "https://www.lybrate.com/samastipur/doctor/dr-s-nandi-general-physician",
+    "S18": "https://drmanjulahospital.com/",
+    "S19": "https://www.justdial.com/Samastipur/Matrika-Manjula-Nursing-Home-Pvt-Ltd-Near-B-R-B-College-Azad-Nagar/9999P6274-6274-150728150300-I2B5_BZDET/photos"
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 580" fill="none">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#E4F2ED"/><stop offset="1" stop-color="#C3DED8"/></linearGradient></defs>
+  <rect width="500" height="580" rx="20" fill="url(#g)"/>
+  <circle cx="250" cy="213" r="85" fill="#A2C3BC"/>
+  <path d="M107 475c5-104 67-160 143-160s138 56 143 160v105H107V475Z" fill="#FFFFFF"/>
+  <path d="M183 335c17 28 39 42 67 42s50-14 67-42" stroke="#B7D5D0" stroke-width="10"/>
+  <path d="M237 360v120h26V360" fill="#0E817D"/>
+  <circle cx="250" cy="482" r="18" fill="#0E817D"/>
+  <path d="M154 575v-90m192 90v-90" stroke="#B7D5D0" stroke-width="3"/>
+  <text x="250" y="548" font-family="Arial,sans-serif" text-anchor="middle" font-size="14" letter-spacing="3" fill="#7BA39E">PORTRAIT PENDING</text>
+</svg>
