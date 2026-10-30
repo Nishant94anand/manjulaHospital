@@ -77,19 +77,21 @@ export const specialities: Specialty[] = [
 
 export type Doctor = { name: string; specialty: string; note: string; portrait: string };
 
+const previewAssetPrefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 /** PUBLIC DIRECTORY LEADS ONLY — affiliations/qualifications are not owner verified. */
 export const doctors: Doctor[] = [
   {
     name: "Dr. Manjula",
     specialty: "Obstetrics & Gynaecology · Directory-listed",
     note: "Professional details and current consultation hours pending verification.",
-    portrait: "/doctor-placeholder.svg",
+    portrait: `${previewAssetPrefix}/doctor-placeholder.svg`,
   },
   {
     name: "Dr. Minal",
     specialty: "Obstetrics & Gynaecology · Directory-listed",
     note: "Current affiliation and published credentials pending confirmation.",
-    portrait: "/doctor-placeholder.svg",
+    portrait: `${previewAssetPrefix}/doctor-placeholder.svg`,
   },
 ];
 
