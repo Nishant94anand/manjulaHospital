@@ -1,4 +1,7 @@
 import type { MetadataRoute } from "next";
+
+// Required for static exports in Next.js 16.
+export const dynamic = "force-static";
 import { siteUrl, specialities } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
