@@ -73,6 +73,7 @@ src/
     site.ts seo.ts
 public/
   brand-mark.svg doctor-placeholder.svg
+src/app/icon.svg
 docs/
   content-approval.md research-knowledge-base.md research-seed.json
 firebase.json

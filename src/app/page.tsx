@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, Check, Heart, MapPin, MoveUpRight, Phone, Quote, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Check, Heart, MapPin, MoveUpRight, ShieldCheck, Sparkles } from "lucide-react";
 import { ContactBanner, DoctorCard, Eyebrow, FeatureValue, SectionHeading, SpecialtyCard } from "@/components/ui";
 import { doctors, site, siteApproved, siteUrl, specialities } from "@/lib/site";
 

@@ -1,4 +1,4 @@
-import { ArrowUpRight, BadgeCheck, ClipboardCheck } from "lucide-react";
+import { BadgeCheck, ClipboardCheck } from "lucide-react";
 import { ContactBanner, DoctorCard, Eyebrow, PageHero } from "@/components/ui";
 import { metadataFor } from "@/lib/seo";
 import { doctors } from "@/lib/site";

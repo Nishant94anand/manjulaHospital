@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, ContactBanner, Eyebrow, PageHero } from "@/components/ui";
 import { metadataFor } from "@/lib/seo";

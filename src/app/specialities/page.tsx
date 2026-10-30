@@ -1,4 +1,4 @@
-import { ArrowUpRight, CheckCircle2, HeartPulse, SearchCheck } from "lucide-react";
+import { ArrowUpRight, HeartPulse } from "lucide-react";
 import Link from "next/link";
 import { ContactBanner, Eyebrow, PageHero, SpecialtyCard } from "@/components/ui";
 import { metadataFor } from "@/lib/seo";

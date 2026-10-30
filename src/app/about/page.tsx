@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Compass, HeartHandshake, MapPin, Sparkles } from "lucide-react";
+import { ArrowUpRight, MapPin, Sparkles } from "lucide-react";
 import { ContactBanner, Eyebrow, PageHero, FeatureValue } from "@/components/ui";
 import { metadataFor } from "@/lib/seo";
 import { site } from "@/lib/site";
