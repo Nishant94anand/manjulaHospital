@@ -47,6 +47,15 @@ npm run build
 
 Static output goes to `out/`.
 
+## Preview the website for free
+
+- **Local development:** `npm install && npm run dev` → http://localhost:3000
+- **Production-style local preview:** `npm run build && npx serve out`
+- **GitHub Pages demo:** Open [Settings → Pages](https://github.com/Nishant94anand/manjulaHospital/settings/pages), choose **GitHub Actions**, then manually run [Publish static preview](https://github.com/Nishant94anand/manjulaHospital/actions/workflows/deploy-preview.yml).
+- **Firebase/Cloudflare free hosting:** See [the full preview/deployment guide](docs/preview-deployment.md).
+
+This demo is unapproved hospital content and remains intentionally **noindex**. GitHub Pages is for non-transactional project showcase only, not a commercial hospital production site.
+
 ## Deploy to Firebase Hosting
 
 1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/) using the hospital's or your Google Cloud account.
